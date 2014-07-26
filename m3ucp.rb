@@ -6,6 +6,7 @@
 # given BASE_DIR='/path/to/mp3/', /path/to/mp3/files/file.mp3 in playlist files 
 #   will get copied to DEST_DIR/files/file.mp3, along with playlist
 
+
 require 'fileutils'
 
 BASE_DIR=File.realdirpath("/D/mp3/")
